@@ -1,24 +1,12 @@
-// required partials
-@import "./vendor/bootstrap/scss/functions";
-@import "./vendor/bootstrap/scss/variables";
-@import "./vendor/bootstrap/scss/mixins";
-@import "./vendor/bootstrap/scss/reboot";
-
 body,
 html {
   height: 100%;
 }
-$theme-colors: (
-  "primary": #ff6347
-);
+#shop-button,
+#new-buttons {
+  display: none;
+}
 
-$btn-border-radius: 50px;
-
-$font-family-base: 'Electrolize', sans-serif;
-
-$jumbotron-bg: #ffe5d1;
-
-$btn-border-radius: 10rem;
-
-// import bootstrap to set the changes
-@import "./vendor/bootstrap/scss/bootstrap.scss";
+.show {
+  display: block !important;
+}
